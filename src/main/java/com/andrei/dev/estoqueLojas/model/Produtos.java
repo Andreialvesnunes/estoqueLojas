@@ -1,4 +1,4 @@
-package com.andrei.dev.estoqueLojas;
+package com.andrei.dev.estoqueLojas.model;
 
 import jakarta.persistence.*;
 
