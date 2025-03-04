@@ -1,8 +1,9 @@
 package com.andrei.dev.estoqueLojas.repository;
 
-import com.andrei.dev.estoqueLojas.model.Produtos;
+import com.andrei.dev.estoqueLojas.model.Movimentacao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-public interface EstoqueRepository extends JpaRepository<Produtos, Long> {
+@Repository
+public interface MovimentacaoRepository extends JpaRepository<Movimentacao, Long> {
 }

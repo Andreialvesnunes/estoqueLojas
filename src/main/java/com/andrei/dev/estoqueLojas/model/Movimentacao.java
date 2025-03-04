@@ -1,8 +1,8 @@
 package com.andrei.dev.estoqueLojas.model;
 
 import jakarta.persistence.*;
-
 import java.util.Objects;
+
 @Entity
 @Table(name = "movimentações")
 public class Movimentacao {
